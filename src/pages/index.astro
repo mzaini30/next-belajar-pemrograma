@@ -4,15 +4,27 @@ import Meta from 'astro-meta'
 ---
 
 <Layout>
-	<Meta title='Belajar Pemrograman' description='Kamu bisa belajar pemrograman di manapun asalkan numpang wifi' slot='head'/>
+	<div slot='head'>
+		<Meta title='Belajar Pemrograman' description='Kamu bisa belajar pemrograman di manapun asalkan numpang wifi'/>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+	</div>
 
 	<div slot='body'>
 		<h1>Belajar Pemrograman</h1>
+		<h2>"Kamu bisa belajar pemrograman di manapun asalkan numpang wifi" (Zen, 2021)</h2>
 	</div>
 </Layout>
 
 <style>
 	h1 {
-		@apply text-2xl
+		@apply text-center;
+		font-family: 'Festive', cursive;
+		font-size: 100px;
+	}
+	h2 {
+		@apply text-center;
+		font-family: 'Times New Roman';
 	}
 </style>

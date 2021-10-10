@@ -34,7 +34,7 @@ jobs:
       - name: Install
         run: npm i
 
-      - name: Build Svelte
+      - name: Build
         run: npm run build
 
       - name: Deploy
