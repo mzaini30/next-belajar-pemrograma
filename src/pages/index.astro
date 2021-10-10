@@ -1,0 +1,18 @@
+---
+import Layout from './__layout.astro'
+import Meta from 'astro-meta'
+---
+
+<Layout>
+	<Meta title='Belajar Pemrograman' description='Kamu bisa belajar pemrograman di manapun asalkan numpang wifi' slot='head'/>
+
+	<div slot='body'>
+		<h1>Belajar Pemrograman</h1>
+	</div>
+</Layout>
+
+<style>
+	h1 {
+		@apply text-2xl
+	}
+</style>
