@@ -1,4 +1,7 @@
-# Menggabungkan File PDF
+---
+kategori: Linux
+judul: Menggabungkan File PDF
+---
 
 Install dulu `pdftk`:
 

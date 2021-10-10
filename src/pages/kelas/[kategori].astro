@@ -1,0 +1,16 @@
+---
+export async function getStaticPaths(){
+	const semuaTulisan = await Astro.fetchContent('./post/*.md')
+	return semuaTulisan.map(post => {
+		return {
+			params: {kategori: post.kategori},
+			props: {post}
+		}
+	})
+}
+
+const {kategori} = Astro.request.params
+const {post} = Astro.props
+---
+
+<h1>Halo</h1>

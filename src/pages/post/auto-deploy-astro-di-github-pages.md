@@ -1,4 +1,7 @@
-# Auto Deploy Astro di Github Pages
+---
+kategori: Astro
+judul: Auto Deploy Astro di Github Pages
+---
 
 Isi dari `.github/workflows/deploy.yml`:
 

@@ -1,4 +1,7 @@
-# Convert Image to PDF
+---
+kategori: Linux
+judul: Convert Image to PDF
+---
 
 Install dulu ImageMagick:
 

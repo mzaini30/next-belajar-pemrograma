@@ -1,4 +1,7 @@
-# Menggunakan Windi di Astro
+---
+kategori: Astro
+judul: Menggunakan Windi di Astro
+---
 
 Install dependencies yang diperlukan:
 
